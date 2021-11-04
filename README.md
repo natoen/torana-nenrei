@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# トラーナ年齢（これ何？）
 
-## Getting Started
+トラーナさんが使っているフロントエンド技術を使用して、(トイサブの年齢別おもちゃペイジ)[https://toysub.net/nenrei/0sai/]をベースにしてウェブアップです。トラーナのフロントエンドポジションの応募の為に作りました。
 
-First, run the development server:
+## Files / Folders Walkthrough
+ - components -- simplified modular breadcrumbs, navbar, and pagination components
+ - data -- data used for the colors of the ages and toys information
+ - pages:
+    - our pages which is composed of `_app.tsx` -- where our navbars, global css, and other top things are
+    - simple home page and toys by age page with modified pagination; only the age 0 has the toys data
+ - public -- where our pictures are
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 範囲
+ - Redux is not used here since it's a simple web app based from a web page
+ - linters and formatters are not used
+ - testing is not implemented
+ - this is a development version
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ ## Installation
+ - you should have a Node.js v16.13.0 and an NPM v8.1.1
+ - `npm install`
+ - `npm run dev`
+ - `http://localhost:3000/`, `http://localhost:3000/nenrei`, `http://localhost:3000/nenrei/0sai`, `http://localhost:3000/nenrei/0sai?page=2`
