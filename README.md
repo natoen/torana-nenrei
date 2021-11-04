@@ -14,6 +14,7 @@
  - public -- where our pictures are
 
 ## 範囲
+ - CSS is not for mobile
  - Redux is not used here since it's a simple web app based from a web page
  - SSR is not implemented
  - linters and formatters are not used
