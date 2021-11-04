@@ -39,6 +39,10 @@ const Pagination = ({
   numOfItems,
   itemsPerPage,
 }: PaginationProps) => {
+  if (!numOfItems) {
+    return null
+  }
+
   const endPage = Math.ceil(numOfItems / itemsPerPage)
 
   return (
