@@ -1,12 +1,12 @@
 # トラーナ年齢（これ何？）
 
-トラーナさんが使っているフロントエンド技術を使用して、(トイサブの年齢別おもちゃペイジ)[https://toysub.net/nenrei/0sai/]をベースにしてウェブアップです。トラーナのフロントエンドポジションの応募の為に作りました。
+トラーナさんが使っているフロントエンド技術を使用して、[トイサブの年齢別おもちゃペイジ](https://toysub.net/nenrei/0sai/) をベースにしてウェブアップです。]トラーナのフロントエンドポジションの応募の為に作りました。
 
 ## Files / Folders Walkthrough
  - components -- simplified modular breadcrumbs, navbar, and pagination components
  - data -- data used for the colors of the ages and toys information
  - pages:
-    - our pages which is composed of `_app.tsx` -- where our navbars, global css, and other top things are
+    - our pages which is composed of `_app.tsx` where our navbars, global css, and other top things are
     - simple home page and toys by age page with modified pagination; only the age 0 has the toys data
  - public -- where our pictures are
 
