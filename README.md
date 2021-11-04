@@ -1,6 +1,9 @@
 # トラーナ年齢別おもちゃペイジ（これ何？）
 
-トラーナさんが使っているフロントエンド技術を使用して、[トイサブの年齢別おもちゃペイジ](https://toysub.net/nenrei/0sai/) をベースにしてウェブアップです。]トラーナのフロントエンドポジションの応募の為に作りました。
+トラーナさんが使っているフロントエンド技術を使用して、[トイサブの年齢別おもちゃペイジ](https://toysub.net/nenrei/0sai/) をベースにしてウェブアップです。トラーナのフロントエンドポジションの応募の為の具材です。
+
+## 使った技術
+ - TypeScript, React.js, Next.js, and Emotion
 
 ## Files / Folders Walkthrough
  - components -- simplified modular breadcrumbs, navbar, and pagination components
